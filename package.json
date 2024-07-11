@@ -1,0 +1,26 @@
+{
+  "name": "qa-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "fawad.software.engineer@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "@faker-js/faker": "github:faker-js/faker",
+    "cypress": "^10.11.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-file-upload": "^5.0.8",
+    "dotenv": "^16.0.2",
+    "faker": "^6.6.6"
+  }
+}
